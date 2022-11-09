@@ -1,0 +1,141 @@
+body {
+	 margin: 1.5rem 1rem;
+}
+ .container-fluid {
+	 max-width: 1600px;
+}
+ textarea {
+	 padding: 0.5rem 1rem;
+	 font-family: Consolas;
+	 font-size: 0.85rem;
+	 width: 100%;
+}
+ .combination {
+	 border-bottom: 1.5px solid rgba(0, 0, 0, .15);
+	 padding: 1rem;
+	 padding-bottom: 2rem;
+}
+ .warn {
+	 color: #ff8333;
+}
+ .success {
+	 color: #4b975c;
+}
+ .red {
+	 color: red;
+	 list-style: none;
+	 margin-left: -1rem;
+	 opacity: 0.75;
+}
+ .red span {
+	 color: black;
+}
+ small, .small {
+	 font-size: 0.9rem;
+}
+ strong {
+	 opacity: 0.75;
+}
+ .header-li {
+	 color: black;
+	 font-weight: bold;
+	 margin-left: -1rem;
+	 list-style: none;
+}
+ #message {
+	 margin-top: 1rem;
+}
+ .sticky {
+	 position: sticky;
+	 top: 1rem;
+}
+ .hide {
+	 display: none;
+}
+ .btn:focus, .btn:active {
+	 outline: none !important;
+	 box-shadow: none !important;
+}
+ .accordion .collapse {
+	 display: block;
+	 height: 0;
+}
+ .accordion .card.default button[data-action="toggle"] span {
+	 visibility: visible;
+	 opacity: 1;
+}
+ .accordion .card-header {
+	 padding: 0;
+	 position: relative;
+	 display: flex;
+	 align-items: center;
+	 white-space: nowrap;
+}
+ .accordion .card-header .btn {
+	 padding: 1rem 0.75rem;
+	 margin: 0;
+}
+ .accordion .card-header button[data-action="toggle"] {
+	 text-align: left;
+	 max-width: calc(100% - .75*4);
+	 text-overflow: ellipsis;
+	 overflow: hidden;
+}
+ .accordion .card-header button[data-action="toggle"] span {
+	 margin-left: 0.5rem;
+	 font-size: 0.9rem;
+	 padding: 0.1rem 0.5rem;
+	 padding-bottom: 0.2rem;
+	 visibility: hidden;
+	 opacity: 0;
+	 transition: opacity 0.25s, visibility 0.25s;
+}
+ .accordion .card-body {
+	 text-align: center;
+}
+ #accordionLists {
+	 height: calc(100vh - 38px - 4.5rem);
+}
+ body::-webkit-scrollbar, .scroller::-webkit-scrollbar {
+	 width: 0.5rem;
+}
+ body::-webkit-scrollbar-thumb, .scroller::-webkit-scrollbar-thumb {
+	 background-color: lightgray;
+	 outline: 1px solid lightgray;
+}
+ .scroller {
+	 overflow-y: auto;
+	 scrollbar-color: lightgray;
+	 scrollbar-width: thin;
+}
+ .settings {
+	 visibility: hidden;
+	 opacity: 0;
+	 width: 0;
+	 display: flex;
+}
+ .controls {
+	 display: flex;
+}
+ .modal {
+	 visibility: hidden;
+	 opacity: 0;
+	 display: block;
+}
+ .modal .modal-body {
+	 justify-content: center;
+	 display: flex;
+}
+ .modal .modal-body * {
+	 padding: 0.5rem 1rem;
+	 margin: 0;
+}
+ .modal .modal-body *:first-child {
+	 margin-right: 0.75rem;
+}
+ .hidealt {
+	 visibility: hidden;
+	 opacity: 0;
+	 font-size: 0.9rem;
+}
+ 
